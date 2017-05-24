@@ -1,4 +1,4 @@
-package com.labs.eureka.demo;
+package com.leo.labs.eureka.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

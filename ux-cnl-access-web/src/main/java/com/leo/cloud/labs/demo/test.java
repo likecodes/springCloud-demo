@@ -1,6 +1,5 @@
-package com.uxun.mkm.demo;
+package com.leo.cloud.labs.demo;
 
-import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
@@ -16,7 +15,7 @@ public class test {
     @RequestMapping("/")
     @ResponseBody
     public void test() throws IllegalAccessException, InstantiationException, ClassNotFoundException {
-       com.uxun.mkm.demo.DrawService ds =new com.uxun.mkm.demo.DrawService();
+       DrawService ds =new DrawService();
        ds.test();
 
     }
