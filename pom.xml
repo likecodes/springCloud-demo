@@ -14,7 +14,7 @@
         <module>zuul</module>
         <module>ux-cnl-access-web</module>
         <module>drawActivity-service</module>
-        <module>actInsInfoservice</module>
+        <module>actInsInfo-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
