@@ -12,16 +12,16 @@
         <module>eureka-server</module>
         <module>config-service</module>
         <module>zuul</module>
-        <module>loadbalance-service</module>
         <module>ux-cnl-access-web</module>
         <module>drawActivity-service</module>
+        <module>actInsInfoservice</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.3.RELEASE</version>
     </parent>
-    
+
     <!-- jar -->
     <build>
         <plugins>

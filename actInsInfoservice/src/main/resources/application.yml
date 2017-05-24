@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ActInsInfo-service
+
+server:
+  port: 2230
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
