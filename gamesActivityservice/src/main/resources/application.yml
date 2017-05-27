@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: treegame-service
+
+server:
+  port: 2240
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/

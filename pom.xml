@@ -16,6 +16,7 @@
         <module>drawActivity-service</module>
         <module>actInsInfo-service</module>
         <module>gitconfigservice</module>
+        <module>gamesActivityservice</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
